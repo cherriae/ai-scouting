@@ -1,0 +1,28 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+.env/
+ENV/
+venv/
+.venv/
+
+
+# Ignore dataset and runs if desired
+datasets/
+runs/
+
+# Ignore model weights
+sam3.1_multiplex.pt
+
+
+# Ignore images and videos (optional)
+# *.png
+# *.jpg
+# *.jpeg
+# *.mp4
+
+# Ignore IDE/project settings
+.vscode/
+.idea/
